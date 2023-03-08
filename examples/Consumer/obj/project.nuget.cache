@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rdso2GIBZA90LDGhIqqFl8ZG9Q+L9ZtkyKalWSLsEZ+PHis6RDqEQlMDi7/PuLNimFe8wbC63O7p7GqhNfHW3A==",
+  "success": true,
+  "projectFilePath": "/home/administrator/confluent-kafka-dotnet-721/examples/Consumer/Consumer.csproj",
+  "expectedPackageFiles": [
+    "/home/administrator/.nuget/packages/librdkafka.redist/1.5.3/librdkafka.redist.1.5.3.nupkg.sha512",
+    "/home/administrator/.nuget/packages/microsoft.netcore.app/2.1.0/microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "/home/administrator/.nuget/packages/microsoft.netcore.dotnetapphost/2.1.0/microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "/home/administrator/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.1.0/microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "/home/administrator/.nuget/packages/microsoft.netcore.dotnethostresolver/2.1.0/microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "/home/administrator/.nuget/packages/microsoft.netcore.platforms/2.1.0/microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "/home/administrator/.nuget/packages/microsoft.netcore.targets/2.1.0/microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "/home/administrator/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/administrator/.nuget/packages/recurly-api-client/1.0.1/recurly-api-client.1.0.1.nupkg.sha512",
+    "/home/administrator/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'recurly-api-client 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "recurly-api-client",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
+}

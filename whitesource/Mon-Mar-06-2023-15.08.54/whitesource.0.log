@@ -1,0 +1,1395 @@
+[DEBUG] [2023-03-06 15:08:54,751 -0500] - Failed to find file: wss-unified-agent.config, error message: wss-unified-agent.config (No such file or directory)
+[DEBUG] [2023-03-06 15:08:54,766 -0500] - Failed to find file: whitesource-fs-agent.config, error message: whitesource-fs-agent.config (No such file or directory)
+[DEBUG] [2023-03-06 15:08:54,840 -0500] - Proxy host not provided
+[DEBUG] [2023-03-06 15:08:54,860 -0500] - Base url:'https://saas.mend.io' 
+[INFO] [2023-03-06 15:08:55,474 -0500[ - UnifiedAgent version (pluginVersion) : 23.2.1
+[INFO] [2023-03-06 15:08:55,488 -0500[ - 
+##### general #####
+wss.url=https://saas.mend.io/agent
+userKey=******
+projectTag=
+projectName=confluent-kafka-dotnet
+productName=Moneris-POC
+includes=**/*.7z,**/*.a,**/*.aar,**/*.air,**/*.apk,**/*.ar,**/*.bb,**/*.bz2,**/*.car,**/*.conda,**/*.cpa,**/*.crate,**/*.deb,**/*.dll,**/*.dmg,**/*.docker,**/*.drpm,**/*.ear,**/*.egg,**/*.epk,**/*.exe,**/*.gal,**/*.gem,**/*.gzip,**/*.har,**/*.hpi,**/*.jar,**/*.jar.pack.gz,**/*.jpi,**/*.js,**/*.ko,**/*.min.js,**/*.msi,**/*.nupkg,**/*.pkg.tar.xz,**/*.rpm,**/*.sar,**/*.sit,**/*.so,**/*.swc,**/*.swf,**/*.tar,**/*.tar.bz2,**/*.tar.gz,**/*.tbz,**/*.tgz,**/*.udeb,**/*.war,**/*.whl,**/*.zip,**/*.4th,**/*.6pl,**/*.6pm,**/*.8xk,**/*.8xk.txt,**/*.8xp,**/*.8xp.txt,**/*.E,**/*.ML,**/*._coffee,**/*._js,**/*._ls,**/*.abap,**/*.ada,**/*.adb,**/*.ado,**/*.adp,**/*.ads,**/*.agda,**/*.ahk,**/*.ahkl,**/*.aidl,**/*.aj,**/*.al,**/*.als,**/*.ampl,**/*.apl,**/*.app.src,**/*.applescript,**/*.arc,**/*.as,**/*.asax,**/*.asc,**/*.ascx,**/*.asd,**/*.ash,**/*.ashx,**/*.asmx,**/*.asp,**/*.aspx,**/*.au3,**/*.aug,**/*.auk,**/*.aw,**/*.awk,**/*.axd,**/*.axi,**/*.axi.erb,**/*.axs,**/*.axs.erb,**/*.b,**/*.bas,**/*.bash,**/*.bat,**/*.bats,**/*.bb,**/*.befunge,**/*.bf,**/*.bison,**/*.bmx,**/*.bones,**/*.boo,**/*.boot,**/*.brd,**/*.bro,**/*.brs,**/*.bsl,**/*.bsv,**/*.builder,**/*.bzl,**/*.c,**/*.c++,**/*.cake,**/*.capnp,**/*.cats,**/*.cbl,**/*.cc,**/*.ccp,**/*.cdf,**/*.ceylon,**/*.cfc,**/*.cfm,**/*.cfml,**/*.cgi,**/*.ch,**/*.chpl,**/*.chs,**/*.cirru,**/*.cjsx,**/*.ck,**/*.cl,**/*.cl2,**/*.click,**/*.clj,**/*.cljc,**/*.cljs,**/*.cljs.hl,**/*.cljscm,**/*.cljx,**/*.clp,**/*.cls,**/*.clw,**/*.cmd,**/*.cob,**/*.cobol,**/*.coffee,**/*.com,**/*.command,**/*.coq,**/*.cp,**/*.cpp,**/*.cps,**/*.cpy,**/*.cr,**/*.cs,**/*.csd,**/*.cshtml,**/*.csx,**/*.ctp,**/*.cu,**/*.cuh,**/*.cw,**/*.cxx,**/*.cy,**/*.d,**/*.dart,**/*.dats,**/*.db2,**/*.dcl,**/*.decls,**/*.dfm,**/*.di,**/*.djs,**/*.dlm,**/*.dm,**/*.do,**/*.doh,**/*.dpr,**/*.druby,**/*.duby,**/*.dyalog,**/*.dyl,**/*.dylan,**/*.e,**/*.ec,**/*.ecl,**/*.eclxml,**/*.eh,**/*.el,**/*.eliom,**/*.eliomi,**/*.elm,**/*.em,**/*.emacs,**/*.emacs.desktop,**/*.emberscript,**/*.eq,**/*.erl,**/*.es,**/*.es6,**/*.escript,**/*.ex,**/*.exs,**/*.eye,**/*.f,**/*.f03,**/*.f08,**/*.f77,**/*.f90,**/*.f95,**/*.factor,**/*.fan,**/*.fancypack,**/*.fcgi,**/*.feature,**/*.flex,**/*.flux,**/*.for,**/*.forth,**/*.fp,**/*.fpp,**/*.fr,**/*.frag,**/*.frg,**/*.frm,**/*.frt,**/*.frx,**/*.fs,**/*.fsh,**/*.fshader,**/*.fsi,**/*.fsx,**/*.fth,**/*.ftl,**/*.fun,**/*.fx,**/*.fxh,**/*.fy,**/*.g,**/*.g4,**/*.gap,**/*.gawk,**/*.gd,**/*.gdb,**/*.gdbinit,**/*.gemspec,**/*.geo,**/*.geom,**/*.gf,**/*.gi,**/*.glf,**/*.glsl,**/*.glslv,**/*.gml,**/*.gms,**/*.gnu,**/*.gnuplot,**/*.go,**/*.god,**/*.golo,**/*.gp,**/*.grace,**/*.groovy,**/*.grt,**/*.gs,**/*.gshader,**/*.gsp,**/*.gst,**/*.gsx,**/*.gtpl,**/*.gvy,**/*.gyp,**/*.gypi,**/*.h,**/*.h++,**/*.hats,**/*.hb,**/*.hcl,**/*.hh,**/*.hic,**/*.hlean,**/*.hlsl,**/*.hlsli,**/*.hpp,**/*.hqf,**/*.hrl,**/*.hs,**/*.hsc,**/*.hx,**/*.hxsl,**/*.hxx,**/*.hy,**/*.i7x,**/*.iced,**/*.icl,**/*.idc,**/*.idr,**/*.ihlp,**/*.ijs,**/*.ik,**/*.ily,**/*.inc,**/*.inl,**/*.ino,**/*.intr,**/*.io,**/*.ipf,**/*.ipp,**/*.irbrc,**/*.iss,**/*.j,**/*.jake,**/*.java,**/*.jbuilder,**/*.jflex,**/*.ji,**/*.jison,**/*.jisonlex,**/*.jl,**/*.jq,**/*.js,**/*.jsb,**/*.jscad,**/*.jsfl,**/*.jsm,**/*.jsp,**/*.jss,**/*.jsx,**/*.kicad_pcb,**/*.kid,**/*.krl,**/*.ksh,**/*.kt,**/*.ktm,**/*.kts,**/*.l,**/*.lagda,**/*.las,**/*.lasso,**/*.lasso8,**/*.lasso9,**/*.ldml,**/*.lean,**/*.lex,**/*.lfe,**/*.lgt,**/*.lhs,**/*.lid,**/*.lidr,**/*.lisp,**/*.litcoffee,**/*.ll,**/*.lmi,**/*.logtalk,**/*.lol,**/*.lookml,**/*.lpr,**/*.ls,**/*.lsl,**/*.lslp,**/*.lsp,**/*.lua,**/*.lvproj,**/*.ly,**/*.m,**/*.m4,**/*.ma,**/*.mak,**/*.make,**/*.mako,**/*.mao,**/*.mata,**/*.matah,**/*.mathematica,**/*.matlab,**/*.mawk,**/*.maxhelp,**/*.maxpat,**/*.maxproj,**/*.mcr,**/*.metal,**/*.minid,**/*.mir,**/*.mirah,**/*.mk,**/*.mkfile,**/*.ml,**/*.ml4,**/*.mli,**/*.mll,**/*.mly,**/*.mm,**/*.mmk,**/*.mms,**/*.mo,**/*.mod,**/*.model.lkml,**/*.monkey,**/*.moo,**/*.moon,**/*.mq4,**/*.mq5,**/*.mqh,**/*.ms,**/*.mspec,**/*.mss,**/*.mt,**/*.mu,**/*.muf,**/*.mumps,**/*.mxt,**/*.myt,**/*.n,**/*.nawk,**/*.nb,**/*.nbp,**/*.nc,**/*.ncl,**/*.ni,**/*.nim,**/*.nimrod,**/*.nit,**/*.nix,**/*.njs,**/*.nl,**/*.nlogo,**/*.nqp,**/*.nse,**/*.nsh,**/*.nsi,**/*.nu,**/*.numpy,**/*.numpyw,**/*.numsc,**/*.nut,**/*.ny,**/*.omgrofl,**/*.ooc,**/*.opa,**/*.opal,**/*.opencl,**/*.orc,**/*.os,**/*.ox,**/*.oxh,**/*.oxo,**/*.oxygene,**/*.oz,**/*.p,**/*.p4,**/*.p6,**/*.p6l,**/*.p6m,**/*.pac,**/*.pan,**/*.parrot,**/*.pas,**/*.pascal,**/*.pasm,**/*.pat,**/*.pb,**/*.pbi,**/*.pbt,**/*.pck,**/*.pd,**/*.pd_lua,**/*.pde,**/*.perl,**/*.ph,**/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phps,**/*.phpt,**/*.pig,**/*.pike,**/*.pir,**/*.pkb,**/*.pks,**/*.pl,**/*.pl6,**/*.plb,**/*.plot,**/*.pls,**/*.plsql,**/*.plt,**/*.pluginspec,**/*.plx,**/*.pm,**/*.pm6,**/*.pmod,**/*.pod,**/*.podsl,**/*.podspec,**/*.pogo,**/*.pony,**/*.pov,**/*.pp,**/*.pprx,**/*.prg,**/*.pri,**/*.pro,**/*.prolog,**/*.prw,**/*.ps1,**/*.psc,**/*.psd1,**/*.psgi,**/*.psm1,**/*.purs,**/*.pwn,**/*.pxd,**/*.pxi,**/*.py,**/*.py3,**/*.pyde,**/*.pyp,**/*.pyt,**/*.pyw,**/*.pyx,**/*.qbs,**/*.qml,**/*.r,**/*.r2,**/*.r3,**/*.rabl,**/*.rake,**/*.rb,**/*.rbbas,**/*.rbfrm,**/*.rbmnu,**/*.rbres,**/*.rbtbar,**/*.rbuild,**/*.rbuistate,**/*.rbw,**/*.rbx,**/*.rbxs,**/*.rd,**/*.re,**/*.reb,**/*.rebol,**/*.red,**/*.reds,**/*.rei,**/*.rex,**/*.rexx,**/*.rg,**/*.rkt,**/*.rktd,**/*.rktl,**/*.rl,**/*.rpy,**/*.rs,**/*.rs.in,**/*.rsc,**/*.rsh,**/*.rsx,**/*.ru,**/*.ruby,**/*.sage,**/*.sagews,**/*.sas,**/*.sats,**/*.sbt,**/*.sc,**/*.scad,**/*.scala,**/*.scd,**/*.sce,**/*.sch,**/*.sci,**/*.scm,**/*.sco,**/*.scpt,**/*.scrbl,**/*.self,**/*.sexp,**/*.sh,**/*.sh-session,**/*.sh.in,**/*.shader,**/*.shen,**/*.sig,**/*.sj,**/*.sjs,**/*.sl,**/*.sld,**/*.sls,**/*.sma,**/*.smali,**/*.sml,**/*.smt,**/*.smt2,**/*.sp,**/*.spec,**/*.spin,**/*.sps,**/*.sqf,**/*.sql,**/*.sra,**/*.sru,**/*.srw,**/*.ss,**/*.ssjs,**/*.st,**/*.stan,**/*.sthlp,**/*.sv,**/*.svh,**/*.swift,**/*.t,**/*.tac,**/*.tcc,**/*.tcl,**/*.tf,**/*.thor,**/*.thrift,**/*.thy,**/*.tla,**/*.tm,**/*.tmux,**/*.tool,**/*.tpl,**/*.tpp,**/*.ts,**/*.tst,**/*.tsx,**/*.tu,**/*.txl,**/*.uc,**/*.udo,**/*.uno,**/*.upc,**/*.ur,**/*.urs,**/*.v,**/*.vala,**/*.vapi,**/*.vark,**/*.vb,**/*.vba,**/*.vbhtml,**/*.vbs,**/*.vcl,**/*.veo,**/*.vert,**/*.vh,**/*.vhd,**/*.vhdl,**/*.vhf,**/*.vhi,**/*.vho,**/*.vhs,**/*.vht,**/*.vhw,**/*.view.lkml,**/*.vim,**/*.volt,**/*.vrx,**/*.vsh,**/*.vshader,**/*.w,**/*.watchr,**/*.webidl,**/*.wisp,**/*.wl,**/*.wlt,**/*.wlua,**/*.wsgi,**/*.x,**/*.x10,**/*.xc,**/*.xi,**/*.xm,**/*.xojo_code,**/*.xojo_menu,**/*.xojo_report,**/*.xojo_script,**/*.xojo_toolbar,**/*.xojo_window,**/*.xpl,**/*.xproc,**/*.xpy,**/*.xq,**/*.xql,**/*.xqm,**/*.xquery,**/*.xqy,**/*.xrl,**/*.xs,**/*.xsjs,**/*.xsjslib,**/*.xsl,**/*.xslt,**/*.xsp-config,**/*.xsp.metadata,**/*.xtend,**/*.y,**/*.yacc,**/*.yap,**/*.yrl,**/*.yy,**/*.zep,**/*.zimpl,**/*.zmpl,**/*.zpl,**/*.zsh
+configFilePath=DEFAULT
+apiKey=******
+#whiteSourceFolderPath=.
+#updateType=OVERRIDE
+#updateInventory=true
+#updateEmptyProject=true
+#showProgressBar=true
+#scanReportTimeoutMinutes=10
+#scanReportFilenameFormat=project_with_timestamp
+#scanPackageManager=false
+#scanComment=
+#resolveAllDependencies=true
+#requireKnownSha1=true
+#requesterEmail=
+#projectVersion=
+#projectToken=
+#projectPerFolderIncludes=*
+#projectPerFolderExcludes=
+#projectPerFolder=false
+#productVersion=
+#productToken=
+#offline.zip=false
+#offline.prettyJson=true
+#offline=false
+#log.level=info
+#ignoreEuaNotices=informational
+#iaLanguage=
+#generateScanReport=false
+#generateProjectDetailsJson=false
+#forceUpdate.failBuildOnPolicyViolation=false
+#forceUpdate=false
+#forceCheckAllDependencies=false
+#fileSystemScan=true
+#failErrorLevel=DEFAULT
+#excludes=**/.*,**/node_modules,**/src/test,**/testdata,**/*sources.jar,**/*javadoc.jar
+#excludeDependenciesFromNodes=
+#euaVul=euaVul.json
+#euaRes=euaRes.json
+#euaOffline=
+#euaDep=euaDep.json
+#enableImpactAnalysis=false
+#commandTimeout=900
+#checkPolicies=false
+#appPath=
+#analyzeMultiModule=
+#analyzeFrameworksReference=analyzeFrameworks.txt
+#analyzeFrameworks=false
+
+##### ANT #####
+#ant.resolveDependencies=true
+#ant.pathIdIncludes=
+#ant.external.parameters=
+
+##### archive #####
+#archiveIncludes=
+#archiveExtractionDepth=0
+#archiveExcludes=
+
+##### artifactory #####
+#artifactory.userPassword=
+#artifactory.userName=
+#artifactory.url=
+#artifactory.repoKeys=
+#artifactory.includes=.*.*
+#artifactory.excludes=
+#artifactory.enableScan=false
+#artifactory.accessToken=
+
+##### bazel #####
+#bazel.runPreStep=false
+#bazel.resolveDependencies=true
+
+##### bower #####
+#bower.runPreStep=false
+#bower.resolveDependencies=true
+#bower.ignoreSourceFiles=false
+
+##### cabal #####
+#haskell.runPreStep=false
+#haskell.resolveDependencies=true
+#haskell.ignoreSourceFiles=true
+#haskell.ignorePreStepErrors=false
+
+##### cargo #####
+#cargo.runPreStep=false
+#cargo.resolveDependencies=true
+#cargo.ignoreSourceFiles=true
+
+##### cocoapods #####
+#cocoapods.runPreStep=false
+#cocoapods.resolveDependencies=true
+#cocoapods.ignoreSourceFiles=true
+
+##### conda #####
+#conda.resolveDependencies=true
+
+##### docker #####
+#docker.scanTarFiles=false
+#docker.scanImages=false
+#docker.scanContainers=false
+#docker.pull.tags=
+#docker.pull.maxImages=10
+#docker.pull.images=
+#docker.pull.force=false
+#docker.pull.enable=false
+#docker.pull.digest=
+#docker.projectNameFormat=default
+#docker.login.sudo=true
+#docker.layers=false
+#docker.includes=.*.*
+#docker.includeSingleScan=
+#docker.excludes=
+#docker.delete.force=false
+#docker.containerIncludes=.*.*
+#docker.containerExcludes=
+
+##### docker artifactory #####
+#docker.artifactory.userPassword=
+#docker.artifactory.userName=
+#docker.artifactory.url=
+#docker.artifactory.repositoriesNames=
+#docker.artifactory.pullUrl=
+#docker.artifactory.enable=false
+#docker.artifactory.dockerAccessMethod= 
+
+##### docker aws #####
+#docker.aws.registryIds=
+#docker.aws.enable=false
+
+##### docker azure #####
+#docker.azure.userPassword=
+#docker.azure.userName=
+#docker.azure.registryNames=
+#docker.azure.registryAuthenticationParameters=
+#docker.azure.enable=false
+#docker.azure.authenticationType=UserAccount
+
+##### docker google containers #####
+#docker.gcr.repositories=
+#docker.gcr.enable=false
+#docker.gcr.account=
+
+##### docker hub #####
+#docker.hub.userPassword=
+#docker.hub.userName=
+#docker.hub.organizationsNames=
+#docker.hub.enabled=false
+#docker.hub.accessToken=
+
+##### environment #####
+#followSymbolicLinks=true
+#case.sensitive.glob=false
+
+##### go #####
+#go.resolveDependencies=true
+#go.modules.resolveDependencies=true
+#go.modules.removeDuplicateDependencies=true
+#go.modules.includeTestDependencies=false
+#go.modules.ignoreSourceFiles=true
+#go.ignoreSourceFiles=false
+#go.gogradle.enableTaskAlias=false
+#go.glide.ignoreTestPackages=true
+#go.dependencyManager=
+#go.collectDependenciesAtRuntime=false
+
+##### gradle #####
+#gradle.resolveDependencies=true
+#gradle.preferredEnvironment=wrapper
+#gradle.innerModulesAsDependencies=true
+#gradle.includedConfigurations=
+#gradle.includeModules=
+#gradle.ignoredConfigurations=
+#gradle.ignoreSourceFiles=false
+#gradle.excludeModules=
+#gradle.aggregateModules=false
+#gradle.additionalArguments=
+
+##### hex #####
+#hex.runPreStep=false
+#hex.resolveDependencies=true
+#hex.ignoreSourceFiles=true
+#hex.aggregateModules=false
+
+##### html #####
+#html.resolveDependencies=true
+
+##### maven #####
+#maven.runPreStep=false
+#maven.resolveDependencies=true
+#maven.projectNameFromDependencyFile=false
+#maven.maxCacheFolderSize=
+#maven.m2RepositoryPath=
+#maven.ignoredScopes=provided,test
+#maven.ignoreSourceFiles=false
+#maven.ignorePomModules=true
+#maven.ignoreMvnTreeErrors=false
+#maven.environmentPath=
+#maven.downloadMissingDependencies=true
+#maven.aggregateModules=false
+#maven.additionalArguments=
+
+##### npm #####
+#npm.yarnProject=false
+#npm.yarn.frozenLockfile=false
+#npm.runPreStep=false
+#npm.resolveMainPackageJsonOnly=false
+#npm.resolveLockFile=true
+#npm.resolveGlobalPackages=false
+#npm.resolveDependencies=true
+#npm.resolveAdditionalDependencies=false
+#npm.removeDuplicateDependencies=true
+#npm.projectNameFromDependencyFile=false
+#npm.includeDevDependencies=false
+#npm.ignoreSourceFiles=true
+#npm.ignoreScripts=false
+#npm.ignoreNpmLsErrors=false
+#npm.ignoreDirectoryPatterns=example,examples,.ws_bower,test
+#npm.identifyByNameAndVersion=false
+#npm.failOnNpmLsErrors=
+#npm.accessToken=
+
+##### nuget #####
+#nuget.runPreStep=false
+#nuget.resolvePackagesConfigFiles=true
+#nuget.resolveNuspecFiles=true
+#nuget.resolveDependencies=true
+#nuget.resolveCsProjFiles=true
+#nuget.resolveAssetsFiles=true
+#nuget.preferredEnvironment=
+#nuget.packagesDirectory=
+#nuget.ignoreSourceFiles=true
+
+##### ocaml #####
+#ocaml.switchName=
+#ocaml.runPreStep=false
+#ocaml.resolveDependencies=true
+#ocaml.ignoredScopes=with-test,with-doc
+#ocaml.ignoreSourceFiles=false
+#ocaml.aggregateModules=false
+
+##### paket #####
+#paket.runPreStep=false
+#paket.resolveDependencies=true
+#paket.ignoredGroups=
+#paket.ignoreSourceFiles=true
+#paket.exePath=
+
+##### php #####
+#php.runPreStep=false
+#php.resolveDependencies=true
+#php.removeDuplicateDependencies=true
+#php.includeDevDependencies=false
+#php.ignoreSourceFiles=true
+
+##### python #####
+#python.runPoetryPreStep=false
+#python.runPipenvPreStep=false
+#python.resolveSetupFiles=false
+#python.resolvePipEditablePackages=false
+#python.resolveHierarchyTree=true
+#python.resolveGlobalPackages=false
+#python.resolveDependencies=true
+#python.requirementsFileIncludes=
+#python.pipenvDevDependencies=false
+#python.pipPath=pip
+#python.path=python
+#python.localPackagePathsToInstall=
+#python.installVirtualenv=false
+#python.indexUrl=
+#python.includePoetryDevDependencies=false
+#python.ignoreSourceFiles=true
+#python.ignorePipInstallErrors=false
+#python.IgnorePipenvInstallErrors=false
+
+##### r_language #####
+#r.runPreStep=false
+#r.resolveDependencies=true
+#r.packageManager=packrat
+#r.ignoreSourceFiles=true
+#r.cranMirrorUrl=
+
+##### ruby #####
+#ruby.runBundleInstall=false
+#ruby.resolveDependencies=true
+#ruby.overwriteGemFile=false
+#ruby.installMissingGems=false
+#ruby.ignoreSourceFiles=true
+
+##### sbt #####
+#sbt.runPreStep=false
+#sbt.resolveDependencies=true
+#sbt.includedScopes=compile,runtime
+#sbt.ignoreSourceFiles=false
+#sbt.aggregateModules=false
+
+##### scm #####
+#scm.user=
+#scm.url=
+#scm.tag=
+#scm.repositoriesFile=
+#scm.ppk=
+#scm.pass=
+#scm.branch=
+
+##### serverless #####
+#serverless.scanFunctions=false
+#serverless.region=
+#serverless.provider=aws-lambda
+#serverless.maxFunctions=10
+#serverless.includes=
+#serverless.excludes=
+
+[DEBUG] [2023-03-06 15:08:58,201 -0500[ - Available processors (cores): 	8
+Free memory (Mb): 	583
+Max memory (Mb): 	8192
+Total memory (Mb): 	1028
+Used memory (Mb): 	444
+
+[INFO] [2023-03-06 15:08:58,210 -0500[ - Starting analysis
+[INFO] [2023-03-06 15:08:58,210 -0500[ - Scanning directories [/home/administrator/confluent-kafka-dotnet-721] for package dependencies (may take a few minutes)
+[INFO] [2023-03-06 15:08:58,211 -0500[ - Included file types: **/*.7z,**/*.a,**/*.aar,**/*.air,**/*.apk,**/*.ar,**/*.bb,**/*.bz2,**/*.car,**/*.conda,**/*.cpa,**/*.crate,**/*.deb,**/*.dll,**/*.dmg,**/*.docker,**/*.drpm,**/*.ear,**/*.egg,**/*.epk,**/*.exe,**/*.gal,**/*.gem,**/*.gzip,**/*.har,**/*.hpi,**/*.jar,**/*.jar.pack.gz,**/*.jpi,**/*.js,**/*.ko,**/*.min.js,**/*.msi,**/*.nupkg,**/*.pkg.tar.xz,**/*.rpm,**/*.sar,**/*.sit,**/*.so,**/*.swc,**/*.swf,**/*.tar,**/*.tar.bz2,**/*.tar.gz,**/*.tbz,**/*.tgz,**/*.udeb,**/*.war,**/*.whl,**/*.zip,**/*.4th,**/*.6pl,**/*.6pm,**/*.8xk,**/*.8xk.txt,**/*.8xp,**/*.8xp.txt,**/*.E,**/*.ML,**/*._coffee,**/*._js,**/*._ls,**/*.abap,**/*.ada,**/*.adb,**/*.ado,**/*.adp,**/*.ads,**/*.agda,**/*.ahk,**/*.ahkl,**/*.aidl,**/*.aj,**/*.al,**/*.als,**/*.ampl,**/*.apl,**/*.app.src,**/*.applescript,**/*.arc,**/*.as,**/*.asax,**/*.asc,**/*.ascx,**/*.asd,**/*.ash,**/*.ashx,**/*.asmx,**/*.asp,**/*.aspx,**/*.au3,**/*.aug,**/*.auk,**/*.aw,**/*.awk,**/*.axd,**/*.axi,**/*.axi.erb,**/*.axs,**/*.axs.erb,**/*.b,**/*.bas,**/*.bash,**/*.bat,**/*.bats,**/*.bb,**/*.befunge,**/*.bf,**/*.bison,**/*.bmx,**/*.bones,**/*.boo,**/*.boot,**/*.brd,**/*.bro,**/*.brs,**/*.bsl,**/*.bsv,**/*.builder,**/*.bzl,**/*.c,**/*.c++,**/*.cake,**/*.capnp,**/*.cats,**/*.cbl,**/*.cc,**/*.ccp,**/*.cdf,**/*.ceylon,**/*.cfc,**/*.cfm,**/*.cfml,**/*.cgi,**/*.ch,**/*.chpl,**/*.chs,**/*.cirru,**/*.cjsx,**/*.ck,**/*.cl,**/*.cl2,**/*.click,**/*.clj,**/*.cljc,**/*.cljs,**/*.cljs.hl,**/*.cljscm,**/*.cljx,**/*.clp,**/*.cls,**/*.clw,**/*.cmd,**/*.cob,**/*.cobol,**/*.coffee,**/*.com,**/*.command,**/*.coq,**/*.cp,**/*.cpp,**/*.cps,**/*.cpy,**/*.cr,**/*.cs,**/*.csd,**/*.cshtml,**/*.csx,**/*.ctp,**/*.cu,**/*.cuh,**/*.cw,**/*.cxx,**/*.cy,**/*.d,**/*.dart,**/*.dats,**/*.db2,**/*.dcl,**/*.decls,**/*.dfm,**/*.di,**/*.djs,**/*.dlm,**/*.dm,**/*.do,**/*.doh,**/*.dpr,**/*.druby,**/*.duby,**/*.dyalog,**/*.dyl,**/*.dylan,**/*.e,**/*.ec,**/*.ecl,**/*.eclxml,**/*.eh,**/*.el,**/*.eliom,**/*.eliomi,**/*.elm,**/*.em,**/*.emacs,**/*.emacs.desktop,**/*.emberscript,**/*.eq,**/*.erl,**/*.es,**/*.es6,**/*.escript,**/*.ex,**/*.exs,**/*.eye,**/*.f,**/*.f03,**/*.f08,**/*.f77,**/*.f90,**/*.f95,**/*.factor,**/*.fan,**/*.fancypack,**/*.fcgi,**/*.feature,**/*.flex,**/*.flux,**/*.for,**/*.forth,**/*.fp,**/*.fpp,**/*.fr,**/*.frag,**/*.frg,**/*.frm,**/*.frt,**/*.frx,**/*.fs,**/*.fsh,**/*.fshader,**/*.fsi,**/*.fsx,**/*.fth,**/*.ftl,**/*.fun,**/*.fx,**/*.fxh,**/*.fy,**/*.g,**/*.g4,**/*.gap,**/*.gawk,**/*.gd,**/*.gdb,**/*.gdbinit,**/*.gemspec,**/*.geo,**/*.geom,**/*.gf,**/*.gi,**/*.glf,**/*.glsl,**/*.glslv,**/*.gml,**/*.gms,**/*.gnu,**/*.gnuplot,**/*.go,**/*.god,**/*.golo,**/*.gp,**/*.grace,**/*.groovy,**/*.grt,**/*.gs,**/*.gshader,**/*.gsp,**/*.gst,**/*.gsx,**/*.gtpl,**/*.gvy,**/*.gyp,**/*.gypi,**/*.h,**/*.h++,**/*.hats,**/*.hb,**/*.hcl,**/*.hh,**/*.hic,**/*.hlean,**/*.hlsl,**/*.hlsli,**/*.hpp,**/*.hqf,**/*.hrl,**/*.hs,**/*.hsc,**/*.hx,**/*.hxsl,**/*.hxx,**/*.hy,**/*.i7x,**/*.iced,**/*.icl,**/*.idc,**/*.idr,**/*.ihlp,**/*.ijs,**/*.ik,**/*.ily,**/*.inc,**/*.inl,**/*.ino,**/*.intr,**/*.io,**/*.ipf,**/*.ipp,**/*.irbrc,**/*.iss,**/*.j,**/*.jake,**/*.java,**/*.jbuilder,**/*.jflex,**/*.ji,**/*.jison,**/*.jisonlex,**/*.jl,**/*.jq,**/*.js,**/*.jsb,**/*.jscad,**/*.jsfl,**/*.jsm,**/*.jsp,**/*.jss,**/*.jsx,**/*.kicad_pcb,**/*.kid,**/*.krl,**/*.ksh,**/*.kt,**/*.ktm,**/*.kts,**/*.l,**/*.lagda,**/*.las,**/*.lasso,**/*.lasso8,**/*.lasso9,**/*.ldml,**/*.lean,**/*.lex,**/*.lfe,**/*.lgt,**/*.lhs,**/*.lid,**/*.lidr,**/*.lisp,**/*.litcoffee,**/*.ll,**/*.lmi,**/*.logtalk,**/*.lol,**/*.lookml,**/*.lpr,**/*.ls,**/*.lsl,**/*.lslp,**/*.lsp,**/*.lua,**/*.lvproj,**/*.ly,**/*.m,**/*.m4,**/*.ma,**/*.mak,**/*.make,**/*.mako,**/*.mao,**/*.mata,**/*.matah,**/*.mathematica,**/*.matlab,**/*.mawk,**/*.maxhelp,**/*.maxpat,**/*.maxproj,**/*.mcr,**/*.metal,**/*.minid,**/*.mir,**/*.mirah,**/*.mk,**/*.mkfile,**/*.ml,**/*.ml4,**/*.mli,**/*.mll,**/*.mly,**/*.mm,**/*.mmk,**/*.mms,**/*.mo,**/*.mod,**/*.model.lkml,**/*.monkey,**/*.moo,**/*.moon,**/*.mq4,**/*.mq5,**/*.mqh,**/*.ms,**/*.mspec,**/*.mss,**/*.mt,**/*.mu,**/*.muf,**/*.mumps,**/*.mxt,**/*.myt,**/*.n,**/*.nawk,**/*.nb,**/*.nbp,**/*.nc,**/*.ncl,**/*.ni,**/*.nim,**/*.nimrod,**/*.nit,**/*.nix,**/*.njs,**/*.nl,**/*.nlogo,**/*.nqp,**/*.nse,**/*.nsh,**/*.nsi,**/*.nu,**/*.numpy,**/*.numpyw,**/*.numsc,**/*.nut,**/*.ny,**/*.omgrofl,**/*.ooc,**/*.opa,**/*.opal,**/*.opencl,**/*.orc,**/*.os,**/*.ox,**/*.oxh,**/*.oxo,**/*.oxygene,**/*.oz,**/*.p,**/*.p4,**/*.p6,**/*.p6l,**/*.p6m,**/*.pac,**/*.pan,**/*.parrot,**/*.pas,**/*.pascal,**/*.pasm,**/*.pat,**/*.pb,**/*.pbi,**/*.pbt,**/*.pck,**/*.pd,**/*.pd_lua,**/*.pde,**/*.perl,**/*.ph,**/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phps,**/*.phpt,**/*.pig,**/*.pike,**/*.pir,**/*.pkb,**/*.pks,**/*.pl,**/*.pl6,**/*.plb,**/*.plot,**/*.pls,**/*.plsql,**/*.plt,**/*.pluginspec,**/*.plx,**/*.pm,**/*.pm6,**/*.pmod,**/*.pod,**/*.podsl,**/*.podspec,**/*.pogo,**/*.pony,**/*.pov,**/*.pp,**/*.pprx,**/*.prg,**/*.pri,**/*.pro,**/*.prolog,**/*.prw,**/*.ps1,**/*.psc,**/*.psd1,**/*.psgi,**/*.psm1,**/*.purs,**/*.pwn,**/*.pxd,**/*.pxi,**/*.py,**/*.py3,**/*.pyde,**/*.pyp,**/*.pyt,**/*.pyw,**/*.pyx,**/*.qbs,**/*.qml,**/*.r,**/*.r2,**/*.r3,**/*.rabl,**/*.rake,**/*.rb,**/*.rbbas,**/*.rbfrm,**/*.rbmnu,**/*.rbres,**/*.rbtbar,**/*.rbuild,**/*.rbuistate,**/*.rbw,**/*.rbx,**/*.rbxs,**/*.rd,**/*.re,**/*.reb,**/*.rebol,**/*.red,**/*.reds,**/*.rei,**/*.rex,**/*.rexx,**/*.rg,**/*.rkt,**/*.rktd,**/*.rktl,**/*.rl,**/*.rpy,**/*.rs,**/*.rs.in,**/*.rsc,**/*.rsh,**/*.rsx,**/*.ru,**/*.ruby,**/*.sage,**/*.sagews,**/*.sas,**/*.sats,**/*.sbt,**/*.sc,**/*.scad,**/*.scala,**/*.scd,**/*.sce,**/*.sch,**/*.sci,**/*.scm,**/*.sco,**/*.scpt,**/*.scrbl,**/*.self,**/*.sexp,**/*.sh,**/*.sh-session,**/*.sh.in,**/*.shader,**/*.shen,**/*.sig,**/*.sj,**/*.sjs,**/*.sl,**/*.sld,**/*.sls,**/*.sma,**/*.smali,**/*.sml,**/*.smt,**/*.smt2,**/*.sp,**/*.spec,**/*.spin,**/*.sps,**/*.sqf,**/*.sql,**/*.sra,**/*.sru,**/*.srw,**/*.ss,**/*.ssjs,**/*.st,**/*.stan,**/*.sthlp,**/*.sv,**/*.svh,**/*.swift,**/*.t,**/*.tac,**/*.tcc,**/*.tcl,**/*.tf,**/*.thor,**/*.thrift,**/*.thy,**/*.tla,**/*.tm,**/*.tmux,**/*.tool,**/*.tpl,**/*.tpp,**/*.ts,**/*.tst,**/*.tsx,**/*.tu,**/*.txl,**/*.uc,**/*.udo,**/*.uno,**/*.upc,**/*.ur,**/*.urs,**/*.v,**/*.vala,**/*.vapi,**/*.vark,**/*.vb,**/*.vba,**/*.vbhtml,**/*.vbs,**/*.vcl,**/*.veo,**/*.vert,**/*.vh,**/*.vhd,**/*.vhdl,**/*.vhf,**/*.vhi,**/*.vho,**/*.vhs,**/*.vht,**/*.vhw,**/*.view.lkml,**/*.vim,**/*.volt,**/*.vrx,**/*.vsh,**/*.vshader,**/*.w,**/*.watchr,**/*.webidl,**/*.wisp,**/*.wl,**/*.wlt,**/*.wlua,**/*.wsgi,**/*.x,**/*.x10,**/*.xc,**/*.xi,**/*.xm,**/*.xojo_code,**/*.xojo_menu,**/*.xojo_report,**/*.xojo_script,**/*.xojo_toolbar,**/*.xojo_window,**/*.xpl,**/*.xproc,**/*.xpy,**/*.xq,**/*.xql,**/*.xqm,**/*.xquery,**/*.xqy,**/*.xrl,**/*.xs,**/*.xsjs,**/*.xsjslib,**/*.xsl,**/*.xslt,**/*.xsp-config,**/*.xsp.metadata,**/*.xtend,**/*.y,**/*.yacc,**/*.yap,**/*.yrl,**/*.yy,**/*.zep,**/*.zimpl,**/*.zmpl,**/*.zpl,**/*.zsh
+[INFO] [2023-03-06 15:08:58,212 -0500[ - Excluded file types: **/.*,**/node_modules,**/src/test,**/testdata,**/*sources.jar,**/*javadoc.jar
+[INFO] [2023-03-06 15:08:58,225 -0500[ - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching Includes Pattern -------
+------------------------------------------------------------------------
+[DEBUG] [2023-03-06 15:08:58,225 -0500[ - Scanning /home/administrator/confluent-kafka-dotnet-721
+[DEBUG] [2023-03-06 15:08:58,245 -0500[ - File/Folder Excluded: .git
+[DEBUG] [2023-03-06 15:08:58,246 -0500[ - File/Folder Excluded: .github
+[DEBUG] [2023-03-06 15:08:58,259 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/AvroGeneric/AvroGeneric.csproj
+[DEBUG] [2023-03-06 15:08:58,308 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Protobuf/Protobuf.csproj
+[DEBUG] [2023-03-06 15:08:58,318 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization/JsonSerialization.csproj
+[DEBUG] [2023-03-06 15:08:58,336 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/AvroBlogExamples/AvroBlogExamples.csproj
+[DEBUG] [2023-03-06 15:08:58,351 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer/MultiProducer.csproj
+[DEBUG] [2023-03-06 15:08:58,352 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Web/Web.csproj
+[DEBUG] [2023-03-06 15:08:58,355 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Web/Views/_ViewImports.cshtml
+[DEBUG] [2023-03-06 15:08:58,355 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Web/Views/Shared/_Layout.cshtml
+[DEBUG] [2023-03-06 15:08:58,356 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Web/Views/_ViewStart.cshtml
+[DEBUG] [2023-03-06 15:08:58,356 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Web/Views/Home/Index.cshtml
+[DEBUG] [2023-03-06 15:08:58,357 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Web/Views/Home/Page1.cshtml
+[DEBUG] [2023-03-06 15:08:58,364 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Producer/Producer.csproj
+[DEBUG] [2023-03-06 15:08:58,386 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/ConfluentCloud/ConfluentCloud.csproj
+[DEBUG] [2023-03-06 15:08:58,394 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Transactions/Transactions.csproj
+[DEBUG] [2023-03-06 15:08:58,411 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient/AdminClient.csproj
+[DEBUG] [2023-03-06 15:08:58,422 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Consumer/Consumer.csproj
+[DEBUG] [2023-03-06 15:08:58,428 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific/AvroSpecific.csproj
+[DEBUG] [2023-03-06 15:08:58,448 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests/Confluent.SchemaRegistry.Serdes.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:08:58,490 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.UnitTests/Confluent.SchemaRegistry.Serdes.UnitTests.csproj
+[DEBUG] [2023-03-06 15:08:58,504 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests/Confluent.Kafka.UnitTests.csproj
+[DEBUG] [2023-03-06 15:08:58,531 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Benchmark/Confluent.Kafka.Benchmark.csproj
+[DEBUG] [2023-03-06 15:08:58,543 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions/Confluent.Kafka.Transactions.csproj
+[DEBUG] [2023-03-06 15:08:58,555 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.VerifiableClient/Confluent.Kafka.VerifiableClient.csproj
+[DEBUG] [2023-03-06 15:08:58,583 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests/Confluent.Kafka.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:08:58,614 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.IntegrationTests/Confluent.SchemaRegistry.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:08:58,620 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/Confluent.Kafka.SyncOverAsync.csproj
+[DEBUG] [2023-03-06 15:08:58,632 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests/Confluent.SchemaRegistry.UnitTests.csproj
+[DEBUG] [2023-03-06 15:08:58,666 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka/Confluent.Kafka.csproj
+[DEBUG] [2023-03-06 15:08:58,694 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry/Confluent.SchemaRegistry.csproj
+[DEBUG] [2023-03-06 15:08:58,717 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen/ConfigGen.csproj
+[DEBUG] [2023-03-06 15:08:58,724 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Json/Confluent.SchemaRegistry.Serdes.Json.csproj
+[DEBUG] [2023-03-06 15:08:58,744 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf/Confluent.SchemaRegistry.Serdes.Protobuf.csproj
+[DEBUG] [2023-03-06 15:08:58,749 -0500[ - Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro/Confluent.SchemaRegistry.Serdes.Avro.csproj
+[INFO] [2023-03-06 15:08:58,758 -0500[ - Attempting to resolve dependencies
+[INFO] [2023-03-06 15:08:58,758 -0500[ - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step And Resolve Dependencies ----------
+------------------------------------------------------------------------
+[DEBUG] [2023-03-06 15:08:58,777 -0500[ - File/Folder Excluded: .git
+[DEBUG] [2023-03-06 15:08:58,777 -0500[ - File/Folder Excluded: .github
+[DEBUG] [2023-03-06 15:08:58,779 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/AvroGeneric/AvroGeneric.csproj
+[DEBUG] [2023-03-06 15:08:58,791 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Protobuf/Protobuf.csproj
+[DEBUG] [2023-03-06 15:08:58,793 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization/JsonSerialization.csproj
+[DEBUG] [2023-03-06 15:08:58,798 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/AvroBlogExamples/AvroBlogExamples.csproj
+[DEBUG] [2023-03-06 15:08:58,801 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer/MultiProducer.csproj
+[DEBUG] [2023-03-06 15:08:58,802 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Web/Web.csproj
+[DEBUG] [2023-03-06 15:08:58,804 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Producer/Producer.csproj
+[DEBUG] [2023-03-06 15:08:58,811 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/ConfluentCloud/ConfluentCloud.csproj
+[DEBUG] [2023-03-06 15:08:58,813 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Transactions/Transactions.csproj
+[DEBUG] [2023-03-06 15:08:58,819 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient/AdminClient.csproj
+[DEBUG] [2023-03-06 15:08:58,824 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/Consumer/Consumer.csproj
+[DEBUG] [2023-03-06 15:08:58,826 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific/AvroSpecific.csproj
+[DEBUG] [2023-03-06 15:08:58,835 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests/Confluent.SchemaRegistry.Serdes.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:08:58,851 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.UnitTests/Confluent.SchemaRegistry.Serdes.UnitTests.csproj
+[DEBUG] [2023-03-06 15:08:58,857 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests/Confluent.Kafka.UnitTests.csproj
+[DEBUG] [2023-03-06 15:08:58,866 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Benchmark/Confluent.Kafka.Benchmark.csproj
+[DEBUG] [2023-03-06 15:08:58,870 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions/Confluent.Kafka.Transactions.csproj
+[DEBUG] [2023-03-06 15:08:58,877 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.VerifiableClient/Confluent.Kafka.VerifiableClient.csproj
+[DEBUG] [2023-03-06 15:08:58,889 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests/Confluent.Kafka.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:08:58,902 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.IntegrationTests/Confluent.SchemaRegistry.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:08:58,905 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/Confluent.Kafka.SyncOverAsync.csproj
+[DEBUG] [2023-03-06 15:08:58,909 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests/Confluent.SchemaRegistry.UnitTests.csproj
+[DEBUG] [2023-03-06 15:08:58,935 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka/Confluent.Kafka.csproj
+[DEBUG] [2023-03-06 15:08:58,947 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry/Confluent.SchemaRegistry.csproj
+[DEBUG] [2023-03-06 15:08:58,957 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen/ConfigGen.csproj
+[DEBUG] [2023-03-06 15:08:58,960 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Json/Confluent.SchemaRegistry.Serdes.Json.csproj
+[DEBUG] [2023-03-06 15:08:58,970 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf/Confluent.SchemaRegistry.Serdes.Protobuf.csproj
+[DEBUG] [2023-03-06 15:08:58,973 -0500[ - FilesFrom: NugetDependencyResolver, Dependency file found location: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro/Confluent.SchemaRegistry.Serdes.Avro.csproj
+[DEBUG] [2023-03-06 15:08:58,981 -0500[ - top folders found:
+[DEBUG] [2023-03-06 15:08:58,981 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/examples/Consumer
+[DEBUG] [2023-03-06 15:08:58,983 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/examples/Consumer/Consumer.csproj
+[DEBUG] [2023-03-06 15:08:58,983 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions
+[DEBUG] [2023-03-06 15:08:58,983 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions/Confluent.Kafka.Transactions.csproj
+[DEBUG] [2023-03-06 15:08:58,983 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry
+[DEBUG] [2023-03-06 15:08:58,983 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry/Confluent.SchemaRegistry.csproj
+[DEBUG] [2023-03-06 15:08:58,983 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/examples/Transactions
+[DEBUG] [2023-03-06 15:08:58,983 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/examples/Transactions/Transactions.csproj
+[DEBUG] [2023-03-06 15:08:58,983 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests
+[DEBUG] [2023-03-06 15:08:58,983 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests/Confluent.SchemaRegistry.Serdes.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:08:58,984 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf
+[DEBUG] [2023-03-06 15:08:58,984 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf/Confluent.SchemaRegistry.Serdes.Protobuf.csproj
+[DEBUG] [2023-03-06 15:08:58,984 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific
+[DEBUG] [2023-03-06 15:08:58,984 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific/AvroSpecific.csproj
+[DEBUG] [2023-03-06 15:08:58,984 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka
+[DEBUG] [2023-03-06 15:08:58,984 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka/Confluent.Kafka.csproj
+[DEBUG] [2023-03-06 15:08:58,984 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization
+[DEBUG] [2023-03-06 15:08:58,985 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization/JsonSerialization.csproj
+[DEBUG] [2023-03-06 15:08:58,985 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests
+[DEBUG] [2023-03-06 15:08:58,985 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests/Confluent.SchemaRegistry.UnitTests.csproj
+[DEBUG] [2023-03-06 15:08:58,985 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/examples/Producer
+[DEBUG] [2023-03-06 15:08:58,985 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/examples/Producer/Producer.csproj
+[DEBUG] [2023-03-06 15:08:58,985 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync
+[DEBUG] [2023-03-06 15:08:58,985 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/Confluent.Kafka.SyncOverAsync.csproj
+[DEBUG] [2023-03-06 15:08:58,986 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient
+[DEBUG] [2023-03-06 15:08:58,986 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient/AdminClient.csproj
+[DEBUG] [2023-03-06 15:08:58,986 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests
+[DEBUG] [2023-03-06 15:08:58,986 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests/Confluent.Kafka.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:08:58,986 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer
+[DEBUG] [2023-03-06 15:08:58,986 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer/MultiProducer.csproj
+[DEBUG] [2023-03-06 15:08:58,986 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests
+[DEBUG] [2023-03-06 15:08:58,986 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests/Confluent.Kafka.UnitTests.csproj
+[DEBUG] [2023-03-06 15:08:58,986 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro
+[DEBUG] [2023-03-06 15:08:58,987 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro/Confluent.SchemaRegistry.Serdes.Avro.csproj
+[DEBUG] [2023-03-06 15:08:58,987 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen
+[DEBUG] [2023-03-06 15:08:58,987 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen/ConfigGen.csproj
+[DEBUG] [2023-03-06 15:08:58,987 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.VerifiableClient
+[DEBUG] [2023-03-06 15:08:58,987 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.VerifiableClient/Confluent.Kafka.VerifiableClient.csproj
+[DEBUG] [2023-03-06 15:08:58,988 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/examples/Web
+[DEBUG] [2023-03-06 15:08:58,988 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/examples/Web/Web.csproj
+[DEBUG] [2023-03-06 15:08:58,988 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.UnitTests
+[DEBUG] [2023-03-06 15:08:58,988 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.UnitTests/Confluent.SchemaRegistry.Serdes.UnitTests.csproj
+[DEBUG] [2023-03-06 15:08:58,988 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.IntegrationTests
+[DEBUG] [2023-03-06 15:08:58,988 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.IntegrationTests/Confluent.SchemaRegistry.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:08:58,988 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/examples/Protobuf
+[DEBUG] [2023-03-06 15:08:58,988 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/examples/Protobuf/Protobuf.csproj
+[DEBUG] [2023-03-06 15:08:58,989 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/examples/AvroGeneric
+[DEBUG] [2023-03-06 15:08:58,989 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/examples/AvroGeneric/AvroGeneric.csproj
+[DEBUG] [2023-03-06 15:08:58,989 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Benchmark
+[DEBUG] [2023-03-06 15:08:58,989 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Benchmark/Confluent.Kafka.Benchmark.csproj
+[DEBUG] [2023-03-06 15:08:58,989 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/examples/AvroBlogExamples
+[DEBUG] [2023-03-06 15:08:58,989 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/examples/AvroBlogExamples/AvroBlogExamples.csproj
+[DEBUG] [2023-03-06 15:08:58,989 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Json
+[DEBUG] [2023-03-06 15:08:58,990 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Json/Confluent.SchemaRegistry.Serdes.Json.csproj
+[DEBUG] [2023-03-06 15:08:58,990 -0500[ - +- /home/administrator/confluent-kafka-dotnet-721/examples/ConfluentCloud
+[DEBUG] [2023-03-06 15:08:58,990 -0500[ - |  +- /home/administrator/confluent-kafka-dotnet-721/examples/ConfluentCloud/ConfluentCloud.csproj
+[DEBUG] [2023-03-06 15:08:58,993 -0500[ - Finishing reduce dependencies
+[INFO] [2023-03-06 15:08:58,994 -0500[ - Trying to resolve NUGET dependencies
+[DEBUG] [2023-03-06 15:08:58,994 -0500[ - NUGET installation status: true
+[DEBUG] [2023-03-06 15:08:58,994 -0500[ - The command was run under /home/administrator/confluent-kafka-dotnet-721/.
+[INFO] [2023-03-06 15:08:58,994 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/examples/Consumer
+[DEBUG] [2023-03-06 15:08:58,995 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/examples/Consumer
+[DEBUG] [2023-03-06 15:08:59,033 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:08:59,033 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/examples/Consumer/Consumer.csproj
+[DEBUG] [2023-03-06 15:08:59,037 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:08:59,039 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/examples/Consumer'
+[WARN] [2023-03-06 15:08:59,231 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/examples/Consumer"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:08:59,234 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/examples/Consumer/Consumer.csproj
+[DEBUG] [2023-03-06 15:08:59,293 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:08:59,294 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/examples/Consumer/Consumer.csproj
+[DEBUG] [2023-03-06 15:08:59,294 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/examples/Consumer/Consumer.csproj
+[DEBUG] [2023-03-06 15:08:59,296 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/examples/Consumer/Consumer.csproj
+[DEBUG] [2023-03-06 15:08:59,392 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:08:59,392 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:08:59,392 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:08:59,392 -0500[ - Command - executeProcess - start execute command 'dotnet --version' in '.'
+[WARN] [2023-03-06 15:08:59,606 -0500[ - Command - executeProcess - Command 'dotnet --version' run Failed, Exception: Cannot run program "dotnet" (in directory "."): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:08:59,606 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:08:59,607 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:08:59,607 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:08:59,607 -0500[ - Command - executeProcess - start execute command 'msbuild /h' in '.'
+[WARN] [2023-03-06 15:08:59,819 -0500[ - Command - executeProcess - Command 'msbuild /h' run Failed, Exception: Cannot run program "msbuild" (in directory "."): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:08:59,820 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:08:59,820 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:08:59,820 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:08:59,820 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:08:59,821 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/examples/Consumer/obj/project.assets.json
+[DEBUG] [2023-03-06 15:08:59,821 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/examples/Consumer/Consumer.csproj assets:/home/administrator/confluent-kafka-dotnet-721/examples/Consumer/obj/project.assets.json
+[DEBUG] [2023-03-06 15:08:59,821 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/examples/Consumer/obj/project.assets.json
+[DEBUG] [2023-03-06 15:08:59,872 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:08:59,872 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:08:59,872 -0500[ - Command - executeProcess - start execute command 'dotnet --info' in '.'
+[WARN] [2023-03-06 15:09:00,070 -0500[ - Command - executeProcess - Command 'dotnet --info' run Failed, Exception: Cannot run program "dotnet" (in directory "."): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:00,071 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:00,079 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 2
+[DEBUG] [2023-03-06 15:09:00,091 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:00,091 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :recurly-api-client-1.0.1
+[DEBUG] [2023-03-06 15:09:00,091 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.Kafka-1.5.3
+[DEBUG] [2023-03-06 15:09:00,093 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NETCore.App-2.1.0
+[DEBUG] [2023-03-06 15:09:00,093 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 7
+[DEBUG] [2023-03-06 15:09:00,093 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 3
+[DEBUG] [2023-03-06 15:09:00,093 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 7
+[DEBUG] [2023-03-06 15:09:00,093 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:00,093 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/examples/Consumer/Consumer.csproj
+[DEBUG] [2023-03-06 15:09:00,093 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:00,094 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:00,094 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:00,094 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/examples/Consumer/Consumer.csproj
+[DEBUG] [2023-03-06 15:09:00,094 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:00,094 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:00,096 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:00,098 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:00,104 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions
+[DEBUG] [2023-03-06 15:09:00,105 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions
+[DEBUG] [2023-03-06 15:09:00,105 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:00,105 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions/Confluent.Kafka.Transactions.csproj
+[DEBUG] [2023-03-06 15:09:00,106 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:00,107 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions'
+[WARN] [2023-03-06 15:09:00,282 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:00,282 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions/Confluent.Kafka.Transactions.csproj
+[DEBUG] [2023-03-06 15:09:00,288 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:00,288 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions/Confluent.Kafka.Transactions.csproj
+[DEBUG] [2023-03-06 15:09:00,288 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions/Confluent.Kafka.Transactions.csproj
+[DEBUG] [2023-03-06 15:09:00,288 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions/Confluent.Kafka.Transactions.csproj
+[DEBUG] [2023-03-06 15:09:00,291 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:00,291 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:00,291 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:00,291 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:00,291 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:00,291 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:00,291 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:00,291 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:00,291 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:00,291 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions/Confluent.Kafka.Transactions.csproj assets:/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:00,292 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:00,297 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:00,297 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:00,297 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 1
+[DEBUG] [2023-03-06 15:09:00,298 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:00,298 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.Kafka-1.5.3
+[DEBUG] [2023-03-06 15:09:00,298 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NETCore.App-2.1.0
+[DEBUG] [2023-03-06 15:09:00,299 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 6
+[DEBUG] [2023-03-06 15:09:00,299 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 2
+[DEBUG] [2023-03-06 15:09:00,299 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 6
+[DEBUG] [2023-03-06 15:09:00,299 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:00,299 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions/Confluent.Kafka.Transactions.csproj
+[DEBUG] [2023-03-06 15:09:00,299 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:00,299 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:00,299 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:00,299 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.Transactions/Confluent.Kafka.Transactions.csproj
+[DEBUG] [2023-03-06 15:09:00,299 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:00,299 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:00,299 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:00,299 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:00,300 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry
+[DEBUG] [2023-03-06 15:09:00,300 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry
+[DEBUG] [2023-03-06 15:09:00,300 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:00,300 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry/Confluent.SchemaRegistry.csproj
+[DEBUG] [2023-03-06 15:09:00,300 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:00,301 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry'
+[WARN] [2023-03-06 15:09:00,488 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:00,488 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry/Confluent.SchemaRegistry.csproj
+[DEBUG] [2023-03-06 15:09:00,509 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:00,509 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry/Confluent.SchemaRegistry.csproj
+[DEBUG] [2023-03-06 15:09:00,509 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry/Confluent.SchemaRegistry.csproj
+[DEBUG] [2023-03-06 15:09:00,509 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry/Confluent.SchemaRegistry.csproj
+[DEBUG] [2023-03-06 15:09:00,512 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:00,512 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:00,512 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:00,512 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:00,512 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:00,512 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:00,512 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:00,512 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:00,512 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:00,512 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry/Confluent.SchemaRegistry.csproj assets:/home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:00,512 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:00,528 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:00,528 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:00,529 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 2
+[DEBUG] [2023-03-06 15:09:00,537 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:00,538 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Newtonsoft.Json-9.0.1
+[DEBUG] [2023-03-06 15:09:00,538 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Net.Http-4.3.0
+[DEBUG] [2023-03-06 15:09:00,538 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,538 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,539 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.Kafka-1.5.3
+[DEBUG] [2023-03-06 15:09:00,539 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,539 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,539 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,539 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,539 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,539 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,539 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,539 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,540 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 120
+[DEBUG] [2023-03-06 15:09:00,547 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:00,548 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Newtonsoft.Json-9.0.1
+[DEBUG] [2023-03-06 15:09:00,548 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Net.Http-4.3.0
+[DEBUG] [2023-03-06 15:09:00,549 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,549 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,549 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.Kafka-1.5.3
+[DEBUG] [2023-03-06 15:09:00,549 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,549 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,549 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,549 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple-4.3.0
+[DEBUG] [2023-03-06 15:09:00,549 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,549 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,549 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,549 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,549 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:00,549 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 75
+[DEBUG] [2023-03-06 15:09:00,550 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 27
+[DEBUG] [2023-03-06 15:09:00,550 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 195
+[DEBUG] [2023-03-06 15:09:00,550 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:00,550 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry/Confluent.SchemaRegistry.csproj
+[DEBUG] [2023-03-06 15:09:00,550 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:00,550 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:00,550 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:00,550 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry/Confluent.SchemaRegistry.csproj
+[DEBUG] [2023-03-06 15:09:00,550 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:00,550 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:00,550 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:00,554 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:00,555 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/examples/Transactions
+[DEBUG] [2023-03-06 15:09:00,555 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/examples/Transactions
+[DEBUG] [2023-03-06 15:09:00,556 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:00,556 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/examples/Transactions/Transactions.csproj
+[DEBUG] [2023-03-06 15:09:00,556 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:00,556 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/examples/Transactions'
+[WARN] [2023-03-06 15:09:00,751 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/examples/Transactions"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:00,751 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/examples/Transactions/Transactions.csproj
+[DEBUG] [2023-03-06 15:09:00,758 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:00,758 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/examples/Transactions/Transactions.csproj
+[DEBUG] [2023-03-06 15:09:00,758 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/examples/Transactions/Transactions.csproj
+[DEBUG] [2023-03-06 15:09:00,758 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/examples/Transactions/Transactions.csproj
+[DEBUG] [2023-03-06 15:09:00,761 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:00,761 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:00,761 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:00,761 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:00,761 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:00,761 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:00,761 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:00,761 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:00,762 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/examples/Transactions/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:00,762 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/examples/Transactions/Transactions.csproj assets:/home/administrator/confluent-kafka-dotnet-721/examples/Transactions/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:00,762 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/examples/Transactions/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:00,767 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:00,767 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:00,767 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 3
+[DEBUG] [2023-03-06 15:09:00,770 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:00,771 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :RocksDbNative-6.2.2
+[DEBUG] [2023-03-06 15:09:00,771 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :RocksDbSharp-6.2.2
+[DEBUG] [2023-03-06 15:09:00,772 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.Kafka-1.5.3
+[DEBUG] [2023-03-06 15:09:00,772 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NETCore.App-2.1.0
+[DEBUG] [2023-03-06 15:09:00,773 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 26
+[DEBUG] [2023-03-06 15:09:00,773 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 4
+[DEBUG] [2023-03-06 15:09:00,773 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 26
+[DEBUG] [2023-03-06 15:09:00,773 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:00,773 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/examples/Transactions/Transactions.csproj
+[DEBUG] [2023-03-06 15:09:00,773 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:00,773 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:00,773 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:00,773 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/examples/Transactions/Transactions.csproj
+[DEBUG] [2023-03-06 15:09:00,773 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:00,773 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:00,773 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:00,774 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:00,774 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests
+[DEBUG] [2023-03-06 15:09:00,774 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests
+[DEBUG] [2023-03-06 15:09:00,774 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:00,775 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests/Confluent.SchemaRegistry.Serdes.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:09:00,775 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:00,775 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests'
+[WARN] [2023-03-06 15:09:00,968 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:00,969 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests/Confluent.SchemaRegistry.Serdes.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:09:00,979 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:00,979 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests/Confluent.SchemaRegistry.Serdes.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:09:00,979 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests/Confluent.SchemaRegistry.Serdes.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:09:00,979 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests/Confluent.SchemaRegistry.Serdes.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:09:00,983 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:00,983 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:00,983 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:00,983 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:00,983 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:00,983 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:00,983 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:00,983 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:00,983 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:00,983 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests/Confluent.SchemaRegistry.Serdes.IntegrationTests.csproj assets:/home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:00,983 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:00,992 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:00,992 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:00,993 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 5
+[DEBUG] [2023-03-06 15:09:01,001 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:01,001 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Apache.Avro-1.10.1
+[DEBUG] [2023-03-06 15:09:01,002 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NET.Test.Sdk-15.5.0
+[DEBUG] [2023-03-06 15:09:01,002 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Diagnostics.DiagnosticSource-4.3.0
+[DEBUG] [2023-03-06 15:09:01,002 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :xunit-2.3.1
+[DEBUG] [2023-03-06 15:09:01,002 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :xunit.runner.visualstudio-2.3.1
+[DEBUG] [2023-03-06 15:09:01,003 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.SchemaRegistry.Serdes.Avro-1.5.3
+[DEBUG] [2023-03-06 15:09:01,003 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,003 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple-4.3.0
+[DEBUG] [2023-03-06 15:09:01,003 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,003 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,003 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,003 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,003 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,003 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,003 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NETCore.App-2.1.0
+[DEBUG] [2023-03-06 15:09:01,003 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.SchemaRegistry.Serdes.Protobuf-1.5.3
+[DEBUG] [2023-03-06 15:09:01,004 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,004 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,004 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,004 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.SchemaRegistry.Serdes.Json-1.5.3
+[DEBUG] [2023-03-06 15:09:01,005 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 396
+[DEBUG] [2023-03-06 15:09:01,005 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 20
+[DEBUG] [2023-03-06 15:09:01,005 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 396
+[DEBUG] [2023-03-06 15:09:01,005 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:01,005 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests/Confluent.SchemaRegistry.Serdes.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:09:01,005 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:01,006 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:01,006 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:01,006 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.Serdes.IntegrationTests/Confluent.SchemaRegistry.Serdes.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:09:01,006 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:01,006 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:01,006 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:01,010 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:01,013 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf
+[DEBUG] [2023-03-06 15:09:01,013 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf
+[DEBUG] [2023-03-06 15:09:01,013 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:01,013 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf/Confluent.SchemaRegistry.Serdes.Protobuf.csproj
+[DEBUG] [2023-03-06 15:09:01,014 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:01,014 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf'
+[WARN] [2023-03-06 15:09:01,201 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:01,201 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf/Confluent.SchemaRegistry.Serdes.Protobuf.csproj
+[DEBUG] [2023-03-06 15:09:01,212 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:01,213 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf/Confluent.SchemaRegistry.Serdes.Protobuf.csproj
+[DEBUG] [2023-03-06 15:09:01,213 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf/Confluent.SchemaRegistry.Serdes.Protobuf.csproj
+[DEBUG] [2023-03-06 15:09:01,213 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf/Confluent.SchemaRegistry.Serdes.Protobuf.csproj
+[DEBUG] [2023-03-06 15:09:01,216 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:01,216 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:01,216 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:01,216 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:01,216 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:01,216 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:01,216 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:01,216 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:01,216 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:01,216 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf/Confluent.SchemaRegistry.Serdes.Protobuf.csproj assets:/home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:01,216 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:01,220 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:01,220 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:01,221 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 3
+[DEBUG] [2023-03-06 15:09:01,225 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:01,225 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Google.Protobuf-3.11.2
+[DEBUG] [2023-03-06 15:09:01,226 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Net.NameResolution-4.3.0
+[DEBUG] [2023-03-06 15:09:01,226 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Net.Sockets-4.3.0
+[DEBUG] [2023-03-06 15:09:01,226 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,226 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,226 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,226 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,226 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,226 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple-4.3.0
+[DEBUG] [2023-03-06 15:09:01,226 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,226 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,226 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,226 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.SchemaRegistry-1.5.3
+[DEBUG] [2023-03-06 15:09:01,227 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,227 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,227 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 92
+[DEBUG] [2023-03-06 15:09:01,227 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 15
+[DEBUG] [2023-03-06 15:09:01,227 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 92
+[DEBUG] [2023-03-06 15:09:01,228 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:01,228 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf/Confluent.SchemaRegistry.Serdes.Protobuf.csproj
+[DEBUG] [2023-03-06 15:09:01,228 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:01,228 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:01,228 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:01,228 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Protobuf/Confluent.SchemaRegistry.Serdes.Protobuf.csproj
+[DEBUG] [2023-03-06 15:09:01,228 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:01,228 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:01,228 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:01,229 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:01,230 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific
+[DEBUG] [2023-03-06 15:09:01,230 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific
+[DEBUG] [2023-03-06 15:09:01,230 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:01,230 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific/AvroSpecific.csproj
+[DEBUG] [2023-03-06 15:09:01,231 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:01,231 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific'
+[WARN] [2023-03-06 15:09:01,414 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:01,415 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific/AvroSpecific.csproj
+[DEBUG] [2023-03-06 15:09:01,419 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:01,419 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific/AvroSpecific.csproj
+[DEBUG] [2023-03-06 15:09:01,419 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific/AvroSpecific.csproj
+[DEBUG] [2023-03-06 15:09:01,419 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific/AvroSpecific.csproj
+[DEBUG] [2023-03-06 15:09:01,421 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:01,422 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:01,422 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:01,422 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:01,422 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:01,422 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:01,422 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:01,422 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:01,422 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:01,422 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific/AvroSpecific.csproj assets:/home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:01,422 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:01,427 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:01,427 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:01,427 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 1
+[DEBUG] [2023-03-06 15:09:01,431 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:01,431 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.SchemaRegistry.Serdes.Avro-1.5.3
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple-4.3.0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NETCore.App-2.1.0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 70
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 13
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 70
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific/AvroSpecific.csproj
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/examples/AvroSpecific/AvroSpecific.csproj
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:01,432 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:01,433 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:01,433 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka
+[DEBUG] [2023-03-06 15:09:01,433 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka
+[DEBUG] [2023-03-06 15:09:01,433 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:01,433 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka/Confluent.Kafka.csproj
+[DEBUG] [2023-03-06 15:09:01,433 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:01,434 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka'
+[WARN] [2023-03-06 15:09:01,620 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:01,620 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka/Confluent.Kafka.csproj
+[DEBUG] [2023-03-06 15:09:01,633 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:01,634 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka/Confluent.Kafka.csproj
+[DEBUG] [2023-03-06 15:09:01,634 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka/Confluent.Kafka.csproj
+[DEBUG] [2023-03-06 15:09:01,634 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka/Confluent.Kafka.csproj
+[DEBUG] [2023-03-06 15:09:01,638 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:01,638 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:01,639 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:01,639 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:01,639 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:01,639 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:01,639 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:01,639 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:01,639 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:01,639 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka/Confluent.Kafka.csproj assets:/home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:01,639 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:01,643 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:01,643 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:01,643 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 7
+[DEBUG] [2023-03-06 15:09:01,644 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:01,644 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :librdkafka.redist-1.5.3
+[DEBUG] [2023-03-06 15:09:01,644 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NETCore.App-2.1.0
+[DEBUG] [2023-03-06 15:09:01,644 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 5
+[DEBUG] [2023-03-06 15:09:01,644 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:01,644 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :librdkafka.redist-1.5.3
+[DEBUG] [2023-03-06 15:09:01,644 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Memory-4.5.0
+[DEBUG] [2023-03-06 15:09:01,644 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 4
+[DEBUG] [2023-03-06 15:09:01,644 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:01,644 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :librdkafka.redist-1.5.3
+[DEBUG] [2023-03-06 15:09:01,644 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Memory-4.5.0
+[DEBUG] [2023-03-06 15:09:01,644 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 4
+[DEBUG] [2023-03-06 15:09:01,648 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:01,648 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :librdkafka.redist-1.5.3
+[DEBUG] [2023-03-06 15:09:01,648 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Console-4.3.0
+[DEBUG] [2023-03-06 15:09:01,648 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Linq-4.3.0
+[DEBUG] [2023-03-06 15:09:01,648 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Memory-4.5.0
+[DEBUG] [2023-03-06 15:09:01,649 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Runtime.Extensions-4.3.0
+[DEBUG] [2023-03-06 15:09:01,649 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Runtime.InteropServices-4.3.0
+[DEBUG] [2023-03-06 15:09:01,649 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Threading-4.3.0
+[DEBUG] [2023-03-06 15:09:01,649 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,649 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,649 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,649 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,649 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,649 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,649 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,649 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,649 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,649 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,649 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 81
+[DEBUG] [2023-03-06 15:09:01,650 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:01,650 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :librdkafka.redist-1.5.3
+[DEBUG] [2023-03-06 15:09:01,650 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Memory-4.5.0
+[DEBUG] [2023-03-06 15:09:01,650 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 5
+[DEBUG] [2023-03-06 15:09:01,650 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 25
+[DEBUG] [2023-03-06 15:09:01,650 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 99
+[DEBUG] [2023-03-06 15:09:01,650 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:01,650 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka/Confluent.Kafka.csproj
+[DEBUG] [2023-03-06 15:09:01,650 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:01,650 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:01,650 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:01,650 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.Kafka/Confluent.Kafka.csproj
+[DEBUG] [2023-03-06 15:09:01,650 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:01,651 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:01,651 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:01,651 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:01,651 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization
+[DEBUG] [2023-03-06 15:09:01,651 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization
+[DEBUG] [2023-03-06 15:09:01,651 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:01,651 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization/JsonSerialization.csproj
+[DEBUG] [2023-03-06 15:09:01,652 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:01,652 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization'
+[WARN] [2023-03-06 15:09:01,834 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:01,834 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization/JsonSerialization.csproj
+[DEBUG] [2023-03-06 15:09:01,838 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:01,838 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization/JsonSerialization.csproj
+[DEBUG] [2023-03-06 15:09:01,838 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization/JsonSerialization.csproj
+[DEBUG] [2023-03-06 15:09:01,838 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization/JsonSerialization.csproj
+[DEBUG] [2023-03-06 15:09:01,840 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:01,840 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:01,840 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:01,840 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:01,840 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:01,840 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:01,840 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:01,840 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:01,840 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:01,840 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization/JsonSerialization.csproj assets:/home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:01,840 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:01,844 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:01,844 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:01,844 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 1
+[DEBUG] [2023-03-06 15:09:01,846 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.SchemaRegistry.Serdes.Json-1.5.3
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple-4.3.0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NETCore.App-2.1.0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 70
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 13
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 70
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization/JsonSerialization.csproj
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/examples/JsonSerialization/JsonSerialization.csproj
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:01,847 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:01,848 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests
+[DEBUG] [2023-03-06 15:09:01,848 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests
+[DEBUG] [2023-03-06 15:09:01,848 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:01,848 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests/Confluent.SchemaRegistry.UnitTests.csproj
+[DEBUG] [2023-03-06 15:09:01,848 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:01,848 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests'
+[WARN] [2023-03-06 15:09:02,039 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:02,040 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests/Confluent.SchemaRegistry.UnitTests.csproj
+[DEBUG] [2023-03-06 15:09:02,044 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:02,044 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests/Confluent.SchemaRegistry.UnitTests.csproj
+[DEBUG] [2023-03-06 15:09:02,044 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests/Confluent.SchemaRegistry.UnitTests.csproj
+[DEBUG] [2023-03-06 15:09:02,044 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests/Confluent.SchemaRegistry.UnitTests.csproj
+[DEBUG] [2023-03-06 15:09:02,046 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:02,046 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:02,046 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:02,046 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:02,046 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:02,046 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:02,046 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:02,046 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:02,046 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,046 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests/Confluent.SchemaRegistry.UnitTests.csproj assets:/home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,046 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,053 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:02,053 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:02,053 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 4
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NET.Test.Sdk-15.5.0
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :xunit-2.3.1
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :xunit.runner.visualstudio-2.3.1
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.SchemaRegistry-1.5.3
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple-4.3.0
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NETCore.App-2.1.0
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 200
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 16
+[DEBUG] [2023-03-06 15:09:02,056 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 200
+[DEBUG] [2023-03-06 15:09:02,057 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:02,057 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests/Confluent.SchemaRegistry.UnitTests.csproj
+[DEBUG] [2023-03-06 15:09:02,057 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:02,057 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:02,057 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:02,057 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.SchemaRegistry.UnitTests/Confluent.SchemaRegistry.UnitTests.csproj
+[DEBUG] [2023-03-06 15:09:02,057 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:02,057 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:02,057 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:02,057 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:02,058 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/examples/Producer
+[DEBUG] [2023-03-06 15:09:02,058 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/examples/Producer
+[DEBUG] [2023-03-06 15:09:02,058 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:02,058 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/examples/Producer/Producer.csproj
+[DEBUG] [2023-03-06 15:09:02,059 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:02,059 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/examples/Producer'
+[WARN] [2023-03-06 15:09:02,251 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/examples/Producer"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:02,251 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/examples/Producer/Producer.csproj
+[DEBUG] [2023-03-06 15:09:02,256 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:02,256 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/examples/Producer/Producer.csproj
+[DEBUG] [2023-03-06 15:09:02,256 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/examples/Producer/Producer.csproj
+[DEBUG] [2023-03-06 15:09:02,256 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/examples/Producer/Producer.csproj
+[DEBUG] [2023-03-06 15:09:02,258 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:02,258 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:02,258 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:02,258 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:02,258 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:02,258 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:02,258 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:02,258 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:02,258 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/examples/Producer/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,258 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/examples/Producer/Producer.csproj assets:/home/administrator/confluent-kafka-dotnet-721/examples/Producer/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,258 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/examples/Producer/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,259 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:02,259 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:02,259 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 1
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.Kafka-1.5.3
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NETCore.App-2.1.0
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 6
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 2
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 6
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/examples/Producer/Producer.csproj
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/examples/Producer/Producer.csproj
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:02,260 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:02,260 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/Confluent.Kafka.SyncOverAsync.csproj
+[DEBUG] [2023-03-06 15:09:02,261 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:02,261 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync'
+[WARN] [2023-03-06 15:09:02,446 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:02,447 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/Confluent.Kafka.SyncOverAsync.csproj
+[DEBUG] [2023-03-06 15:09:02,450 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:02,450 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/Confluent.Kafka.SyncOverAsync.csproj
+[DEBUG] [2023-03-06 15:09:02,450 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/Confluent.Kafka.SyncOverAsync.csproj
+[DEBUG] [2023-03-06 15:09:02,450 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/Confluent.Kafka.SyncOverAsync.csproj
+[DEBUG] [2023-03-06 15:09:02,452 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:02,452 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:02,452 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:02,452 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:02,452 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:02,453 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:02,453 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:02,453 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:02,453 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,453 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/Confluent.Kafka.SyncOverAsync.csproj assets:/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,453 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 1
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.Kafka-1.5.3
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NETCore.App-2.1.0
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 6
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 2
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 6
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/Confluent.Kafka.SyncOverAsync.csproj
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:02,454 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/Confluent.Kafka.SyncOverAsync.csproj
+[DEBUG] [2023-03-06 15:09:02,455 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:02,455 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:02,455 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:02,455 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:02,455 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient
+[DEBUG] [2023-03-06 15:09:02,455 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient
+[DEBUG] [2023-03-06 15:09:02,455 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:02,455 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient/AdminClient.csproj
+[DEBUG] [2023-03-06 15:09:02,455 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:02,455 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/examples/AdminClient'
+[WARN] [2023-03-06 15:09:02,647 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/examples/AdminClient"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:02,647 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient/AdminClient.csproj
+[DEBUG] [2023-03-06 15:09:02,651 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:02,651 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient/AdminClient.csproj
+[DEBUG] [2023-03-06 15:09:02,651 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient/AdminClient.csproj
+[DEBUG] [2023-03-06 15:09:02,651 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient/AdminClient.csproj
+[DEBUG] [2023-03-06 15:09:02,653 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:02,653 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:02,653 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:02,653 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:02,653 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:02,653 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:02,653 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:02,653 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:02,653 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,653 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/examples/AdminClient/AdminClient.csproj assets:/home/administrator/confluent-kafka-dotnet-721/examples/AdminClient/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,653 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,654 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 1
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.Kafka-1.5.3
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NETCore.App-2.1.0
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 6
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 2
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 6
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient/AdminClient.csproj
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/examples/AdminClient/AdminClient.csproj
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:02,655 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:02,656 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:02,656 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:02,656 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests
+[DEBUG] [2023-03-06 15:09:02,656 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests
+[DEBUG] [2023-03-06 15:09:02,656 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:02,656 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests/Confluent.Kafka.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:09:02,656 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:02,656 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests'
+[WARN] [2023-03-06 15:09:02,858 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:02,859 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests/Confluent.Kafka.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:09:02,864 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:02,864 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests/Confluent.Kafka.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:09:02,864 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests/Confluent.Kafka.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:09:02,864 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests/Confluent.Kafka.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:09:02,868 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:02,868 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:02,868 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:02,868 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:02,868 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:02,868 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:02,868 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:02,868 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:02,868 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,868 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests/Confluent.Kafka.IntegrationTests.csproj assets:/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,868 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:02,874 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:02,874 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:02,875 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 6
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NET.Test.Sdk-15.5.0
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Newtonsoft.Json-9.0.1
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :xunit-2.4.1
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :xunit.runner.visualstudio-2.4.1
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Xunit.SkippableFact-1.3.12
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.Kafka-1.5.3
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NETCore.App-2.1.0
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 180
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 7
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 180
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests/Confluent.Kafka.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:02,877 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:02,878 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:02,878 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.IntegrationTests/Confluent.Kafka.IntegrationTests.csproj
+[DEBUG] [2023-03-06 15:09:02,878 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:02,878 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:02,878 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:02,879 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:02,879 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer
+[DEBUG] [2023-03-06 15:09:02,880 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer
+[DEBUG] [2023-03-06 15:09:02,880 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:02,880 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer/MultiProducer.csproj
+[DEBUG] [2023-03-06 15:09:02,881 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:02,881 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer'
+[WARN] [2023-03-06 15:09:03,099 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:03,100 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer/MultiProducer.csproj
+[DEBUG] [2023-03-06 15:09:03,104 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:03,105 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer/MultiProducer.csproj
+[DEBUG] [2023-03-06 15:09:03,105 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer/MultiProducer.csproj
+[DEBUG] [2023-03-06 15:09:03,105 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer/MultiProducer.csproj
+[DEBUG] [2023-03-06 15:09:03,107 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:03,107 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:03,107 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:03,107 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:03,107 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:03,107 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:03,107 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:03,107 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:03,115 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: 
+[DEBUG] [2023-03-06 15:09:03,115 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - assets file not found
+[DEBUG] [2023-03-06 15:09:03,115 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:03,115 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer/MultiProducer.csproj
+[DEBUG] [2023-03-06 15:09:03,115 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:03,115 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:03,115 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:03,115 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer/MultiProducer.csproj
+[DEBUG] [2023-03-06 15:09:03,116 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:03,116 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[WARN] [2023-03-06 15:09:03,116 -0500[ - NugetDependencyResolver - resolveDependencies - skipping /home/administrator/confluent-kafka-dotnet-721/examples/MultiProducer/MultiProducer.csproj, no dependencies found!
+[DEBUG] [2023-03-06 15:09:03,116 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:03,116 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:03,116 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests
+[DEBUG] [2023-03-06 15:09:03,116 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests
+[DEBUG] [2023-03-06 15:09:03,116 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:03,116 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests/Confluent.Kafka.UnitTests.csproj
+[DEBUG] [2023-03-06 15:09:03,118 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:03,118 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests'
+[WARN] [2023-03-06 15:09:03,330 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:03,330 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests/Confluent.Kafka.UnitTests.csproj
+[DEBUG] [2023-03-06 15:09:03,338 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:03,338 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests/Confluent.Kafka.UnitTests.csproj
+[DEBUG] [2023-03-06 15:09:03,338 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests/Confluent.Kafka.UnitTests.csproj
+[DEBUG] [2023-03-06 15:09:03,338 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests/Confluent.Kafka.UnitTests.csproj
+[DEBUG] [2023-03-06 15:09:03,342 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:03,342 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:03,342 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:03,343 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:03,343 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:03,343 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:03,343 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:03,343 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:03,343 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:03,343 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests/Confluent.Kafka.UnitTests.csproj assets:/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:03,343 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:03,350 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:03,350 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:03,350 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 5
+[DEBUG] [2023-03-06 15:09:03,353 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:03,353 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NET.Test.Sdk-15.5.0
+[DEBUG] [2023-03-06 15:09:03,353 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Moq-4.8.2
+[DEBUG] [2023-03-06 15:09:03,353 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :xunit-2.3.1
+[DEBUG] [2023-03-06 15:09:03,353 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :xunit.runner.visualstudio-2.3.1
+[DEBUG] [2023-03-06 15:09:03,353 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.Kafka-1.5.3
+[DEBUG] [2023-03-06 15:09:03,354 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NETCore.App-2.1.0
+[DEBUG] [2023-03-06 15:09:03,354 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 182
+[DEBUG] [2023-03-06 15:09:03,354 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:03,354 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NET.Test.Sdk-15.5.0
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Moq-4.8.2
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :xunit-2.3.1
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :xunit.runner.visualstudio-2.3.1
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.Kafka-1.5.3
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 19
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 11
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 201
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests/Confluent.Kafka.UnitTests.csproj
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.UnitTests/Confluent.Kafka.UnitTests.csproj
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:03,355 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:03,356 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:03,356 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro
+[DEBUG] [2023-03-06 15:09:03,356 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro
+[DEBUG] [2023-03-06 15:09:03,356 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:03,356 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro/Confluent.SchemaRegistry.Serdes.Avro.csproj
+[DEBUG] [2023-03-06 15:09:03,357 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:03,357 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro'
+[WARN] [2023-03-06 15:09:03,567 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:03,567 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro/Confluent.SchemaRegistry.Serdes.Avro.csproj
+[DEBUG] [2023-03-06 15:09:03,577 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:03,577 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro/Confluent.SchemaRegistry.Serdes.Avro.csproj
+[DEBUG] [2023-03-06 15:09:03,577 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro/Confluent.SchemaRegistry.Serdes.Avro.csproj
+[DEBUG] [2023-03-06 15:09:03,577 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro/Confluent.SchemaRegistry.Serdes.Avro.csproj
+[DEBUG] [2023-03-06 15:09:03,579 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:03,579 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:03,579 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:03,579 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:03,579 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:03,579 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:03,579 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:03,579 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:03,580 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:03,580 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro/Confluent.SchemaRegistry.Serdes.Avro.csproj assets:/home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:03,580 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:03,585 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:03,585 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:03,585 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 3
+[DEBUG] [2023-03-06 15:09:03,587 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:03,587 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Apache.Avro-1.10.1
+[DEBUG] [2023-03-06 15:09:03,587 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Net.NameResolution-4.3.0
+[DEBUG] [2023-03-06 15:09:03,587 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Net.Sockets-4.3.0
+[DEBUG] [2023-03-06 15:09:03,587 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:03,587 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:03,587 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple-4.3.0
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Confluent.SchemaRegistry-1.5.3
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.0
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 116
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 15
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 116
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro/Confluent.SchemaRegistry.Serdes.Avro.csproj
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:03,588 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:03,589 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/src/Confluent.SchemaRegistry.Serdes.Avro/Confluent.SchemaRegistry.Serdes.Avro.csproj
+[DEBUG] [2023-03-06 15:09:03,589 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:03,589 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:03,589 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:03,590 -0500[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2023-03-06 15:09:03,590 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen
+[DEBUG] [2023-03-06 15:09:03,590 -0500[ - topFolder = /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen
+[DEBUG] [2023-03-06 15:09:03,590 -0500[ - NugetDependencyResolver - resolveDependencies - START
+[DEBUG] [2023-03-06 15:09:03,590 -0500[ - NugetDependencyResolver - resolveCsproj - START - file: /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen/ConfigGen.csproj
+[DEBUG] [2023-03-06 15:09:03,591 -0500[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-03-06 15:09:03,591 -0500[ - Command - executeProcess - start execute command 'dotnet nuget locals global-packages --list' in '/home/administrator/confluent-kafka-dotnet-721/src/ConfigGen'
+[WARN] [2023-03-06 15:09:03,787 -0500[ - Command - executeProcess - Command 'dotnet nuget locals global-packages --list' run Failed, Exception: Cannot run program "dotnet" (in directory "/home/administrator/confluent-kafka-dotnet-721/src/ConfigGen"): error=2, No such file or directory
+[DEBUG] [2023-03-06 15:09:03,787 -0500[ - NugetParser - parseCsprojXml - START - csproj file: /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen/ConfigGen.csproj
+[DEBUG] [2023-03-06 15:09:03,790 -0500[ - NugetParser - parseCsprojXml - END - status: true
+[DEBUG] [2023-03-06 15:09:03,791 -0500[ - NugetDependencyResolver - resolveAssetsJson - START - /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen/ConfigGen.csproj
+[DEBUG] [2023-03-06 15:09:03,791 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - START - /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen/ConfigGen.csproj
+[DEBUG] [2023-03-06 15:09:03,791 -0500[ - NugetUtils - retrieveMsBuildVars - START - /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen/ConfigGen.csproj
+[DEBUG] [2023-03-06 15:09:03,793 -0500[ - NugetUtils - generateMsBuildCommand - START
+[DEBUG] [2023-03-06 15:09:03,793 -0500[ - OsUtils - commandExists - checking if command dotnet is available
+[DEBUG] [2023-03-06 15:09:03,793 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:03,793 -0500[ - OsUtils - commandExists - checking if command msbuild is available
+[DEBUG] [2023-03-06 15:09:03,793 -0500[ - OsUtils - commandExists - false
+[DEBUG] [2023-03-06 15:09:03,793 -0500[ - NugetUtils - generateMsBuildCommand - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:03,793 -0500[ - NugetUtils - generateMsBuildCommand - END
+[DEBUG] [2023-03-06 15:09:03,793 -0500[ - NugetUtils - retrieveMsBuildVars - END - dotnet/msbuild not installed
+[DEBUG] [2023-03-06 15:09:03,793 -0500[ - NugetDependencyResolver - extractAssetsJsonFilePath - END - result: /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:03,793 -0500[ - NugetAssetsJsonCollector - collectDependencies - START - bom:/home/administrator/confluent-kafka-dotnet-721/src/ConfigGen/ConfigGen.csproj assets:/home/administrator/confluent-kafka-dotnet-721/src/ConfigGen/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:03,793 -0500[ - NugetParser - parseAssetsJson - START - assets file: /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen/obj/project.assets.json
+[DEBUG] [2023-03-06 15:09:03,811 -0500[ - NugetParser - parseAssetsJson - END, Status: true
+[DEBUG] [2023-03-06 15:09:03,811 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - START
+[DEBUG] [2023-03-06 15:09:03,811 -0500[ - NugetAssetsJsonCollector - retrieveDirectDependencies - END - result: 1
+[DEBUG] [2023-03-06 15:09:03,815 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - START
+[DEBUG] [2023-03-06 15:09:03,815 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :System.Net.Http-4.3.3
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.2
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.2
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.2
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.2
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.2
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.2
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.2
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.2
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple-4.3.0
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.2
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl-4.3.2
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - Building tree for direct dependency :Microsoft.NETCore.App-2.1.0
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetAssetsJsonCollector - buildHierarchyTree - END - tree size: 36
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetAssetsJsonCollector - collectDependencies - END - result: 13
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetDependencyResolver - resolveAssetsJson - END - result tree size: 36
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetDependencyResolver - resolveCsproj - path to nuget cache: 
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetCsprojCollector - collectDependencies - START - bom: /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen/ConfigGen.csproj
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - START - size: 0
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NuspecCollector - collectDependencies(packagesDirPath, result) - END - result tree size: 0
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetCsprojCollector - collectDependencies - END - result size: 0
+[DEBUG] [2023-03-06 15:09:03,816 -0500[ - NugetDependencyResolver - resolvePackagesConfig - START - /home/administrator/confluent-kafka-dotnet-721/src/ConfigGen/ConfigGen.csproj
+[DEBUG] [2023-03-06 15:09:03,817 -0500[ - NugetDependencyResolver - resolvePackagesConfig - END - packages.config file not found
+[DEBUG] [2023-03-06 15:09:03,817 -0500[ - NugetDependencyResolver - resolveCsproj - END
+[DEBUG] [2023-03-06 15:09:03,817 -0500[ - NugetDependencyResolver - resolveDependencies - END
+[DEBUG] [2023-03-06 15:09:03,817 -0500[ - DependencyResolutionService - get dependency count statistics

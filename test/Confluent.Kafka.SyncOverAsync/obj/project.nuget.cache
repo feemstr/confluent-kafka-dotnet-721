@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "kfRYE2E5QLN2a5bRS15PxAnGbJ6OKPQ2cXSlk6T8b22B0oMnIyJ0TYUfXKb8/IqLoV/4xmK71Dl+0aaR1gxiwA==",
+  "success": true,
+  "projectFilePath": "/home/administrator/confluent-kafka-dotnet-721/test/Confluent.Kafka.SyncOverAsync/Confluent.Kafka.SyncOverAsync.csproj",
+  "expectedPackageFiles": [
+    "/home/administrator/.nuget/packages/librdkafka.redist/1.5.3/librdkafka.redist.1.5.3.nupkg.sha512",
+    "/home/administrator/.nuget/packages/microsoft.netcore.app/2.1.0/microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "/home/administrator/.nuget/packages/microsoft.netcore.dotnetapphost/2.1.0/microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "/home/administrator/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.1.0/microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "/home/administrator/.nuget/packages/microsoft.netcore.dotnethostresolver/2.1.0/microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "/home/administrator/.nuget/packages/microsoft.netcore.platforms/2.1.0/microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "/home/administrator/.nuget/packages/microsoft.netcore.targets/2.1.0/microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "/home/administrator/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/administrator/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
